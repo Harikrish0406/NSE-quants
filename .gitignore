@@ -3,7 +3,10 @@
 !*/
 !*.py
 !.gitignore
-!README.md
+!*.md
+
+# Replica lives in its own repo (github.com/Harikrish0406/nse-quant-signal-stack)
+claude quants/
 
 # Never track caches / build artifacts even though they may sit beside .py
 __pycache__/
