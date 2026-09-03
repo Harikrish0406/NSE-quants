@@ -1,0 +1,24 @@
+# Whitelist approach: ignore everything, then re-include Python source + repo meta
+*
+!*/
+!*.py
+!.gitignore
+!README.md
+
+# Never track caches / build artifacts even though they may sit beside .py
+__pycache__/
+*.pyc
+
+# Explicitly keep data, logs, outputs out
+data/
+logs/
+output/
+nse_data/
+nse_cookies/
+smc_output_v3/
+*.parquet
+*.csv
+*.xlsx
+*.log
+*.bak
+*.env
